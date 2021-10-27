@@ -5,7 +5,7 @@ import (
 )
  
 func main() {
-    n :=0
+    var n []byte
     fmt.Print("Введите целое число: ")
     _, err := fmt.Scan(&n)
     if err !=nil {
